@@ -2,7 +2,7 @@
 import { GithubRepo } from '../../models/GithubRepo';
 
 const GITHUB_API_ENDPOINT = 'https://api.github.com/graphql';
-const GITHUB_PERSONAL_ACCESS_TOKEN = 'fa1a1258fcc919bad18b42701238feb6b98e64e5';
+const GITHUB_PERSONAL_ACCESS_TOKEN = '3be0b6cebf1bc3e7a550a3dc105fb1a01e84dc8b';
 
 export async function getPinnedRepos(username): Promise<GithubRepo> {
   const graphQuery = `

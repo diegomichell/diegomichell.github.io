@@ -1,0 +1,46 @@
+.OpenSourceList-title {
+ color: #ff8f8f;
+ text-align: left;
+ margin-bottom: 30px;
+}
+
+a.GithubRepoCard-url, a.GithubRepoCard-url:hover, a.GithubRepoCard-url:visited, a.GithubRepoCard-url:active {
+    text-decoration: none;
+}
+
+.GithubRepoCard {
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.GithubRepoCard-title {
+    text-align: left;
+}
+
+.GithubRepoCard-description {
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 20px;
+    height: 40px;
+    max-height: 40px;
+}
+
+.GithubRepoCard-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.GithubRepoCard-items li {
+    display: inline-block;
+}
+
+.GithubRepoCard-icon {
+    padding-right: 5px;
+}
