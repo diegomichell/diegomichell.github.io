@@ -44,3 +44,7 @@ a.GithubRepoCard-url, a.GithubRepoCard-url:hover, a.GithubRepoCard-url:visited, 
 .GithubRepoCard-icon {
     padding-right: 5px;
 }
+
+.more-projects-link {
+    display: block;
+}

@@ -43,6 +43,10 @@ export class OpenSourceList extends Component {
             <div className='OpenSourceList activity-section clearfix'>
                 <h3 className='OpenSourceList-title'>Open Source Projects I'm working on</h3>
                 {pinnedRepos.map(this.renderCard.bind(this))}
+                <a className='more-projects-link' href='https://github.com/diegomichell?tab=repositories'>
+                    <h4>More projects</h4>
+                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                </a>
             </div>
         )
     }
