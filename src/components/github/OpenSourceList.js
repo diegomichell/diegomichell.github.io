@@ -45,7 +45,7 @@ export class OpenSourceList extends Component {
                 {pinnedRepos.map(this.renderCard.bind(this))}
                 <a className='more-projects-link' href='https://github.com/diegomichell?tab=repositories'>
                     <h4>More projects</h4>
-                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                    <i className="fa fa-arrow-down" aria-hidden="true"></i>
                 </a>
             </div>
         )
