@@ -1,0 +1,14 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "diegomichell",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro"
+  },
+  "dependencies": {
+    "micro": "^9.0.1",
+    "node-fetch": "^1.7.3"
+  }
+}
